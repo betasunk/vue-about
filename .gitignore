@@ -1,17 +1,23 @@
-# Libraries
-*.lvlibp
-*.llb
+.DS_Store
+node_modules
+/dist
 
-# Shared objects (inc. Windows DLLs)
-*.dll
-*.so
-*.so.*
-*.dylib
 
-# Executables
-*.exe
+# local env files
+.env.local
+.env.*.local
 
-# Metadata
-*.aliases
-*.lvlps
-.cache/
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Editor directories and files
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
