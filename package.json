@@ -20,6 +20,7 @@
   "homepage": "https://github.com/betasunk/vue-about#readme",
   "dependencies": {
     "core-js": "^3.8.3",
+    "element-ui": "^2.15.14",
     "vue": "^2.6.14"
   },
   "devDependencies": {
@@ -44,7 +45,9 @@
     "parserOptions": {
       "parser": "@babel/eslint-parser"
     },
-    "rules": {}
+    "rules": {
+      "vue/multi-word-component-names": 0
+    }
   },
   "browserslist": [
     "> 1%",

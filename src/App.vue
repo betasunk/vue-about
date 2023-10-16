@@ -1,15 +1,15 @@
 <template>
   <div id="app">
-    hello world
+    <DragDialog></DragDialog>
   </div>
 </template>
 
 <script>
-
+import DragDialog from './components/drag-dialog'
 export default {
   name: 'App',
   components: {
-    
+    DragDialog
   }
 }
 </script>
