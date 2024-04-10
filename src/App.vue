@@ -5,11 +5,17 @@
 </template>
 
 <script>
-import DragDialog from './components/drag-dialog'
+import DragDialog from "./components/drag-dialog";
+import SlotComponent from "./components/slot-component/index.vue";
 export default {
-  name: 'App',
+  name: "App",
   components: {
-    DragDialog
-  }
-}
+    DragDialog,
+    SlotComponent,
+  },
+  data() {
+    return {};
+  },
+  methods: {},
+};
 </script>
