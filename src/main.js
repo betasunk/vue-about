@@ -1,3 +1,4 @@
+// import Vue from './vue/dist/vue.esm.js'
 import Vue from 'vue'
 import App from './App.vue'
 import ElementUI from 'element-ui';
